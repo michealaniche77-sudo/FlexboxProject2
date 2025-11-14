@@ -1,152 +1,140 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-
-/* GLOBAL RESET */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #a1c3ff;
-  font-family: 'Poppins', sans-serif;
-  line-height: 1.5;
-  color: #333;
-  font-weight: 400;
-}
-
-/* UNIVERSAL CONTAINER */
-.container {
-  width: 100%;
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 30px;
-}
-
-/* NAVBAR */
-.navbar {
-  height: 60px;
-  background-color: #3474e6;
-  color: #fff;
-  display: flex;
-  align-items: center;
-}
-
 .navbar .logo {
-  font-weight: 700;
+font-family: "Poppins", sans-serif;
+font-weight: 700;
+font-style: normal;
 }
 
-.navbar .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+background-color: #a1c3ff;
+font-family: 'Poppins', sans-serif;
+line-height: 1.5;
+color: #333;
+font-weight: 700;
+font-style: normal;
 }
 
-.menu {
-  display: flex;
-  align-items: center;
+
+.navbar{
+height: 60px;
+background-color: #3474e6;
+color: #fff;
+}
+.navbar .container{
+max-width: 1200px;
+height: 100%;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 30px;
+}
+.menu{
+display: flex;
+justify-content: space-between;
+}
+.navbar ul{
+list-style: none;
+
+}
+.navbar li{
+margin-left: 30px;
+}
+.navbar a{
+color: #fff;
+text-decoration: none;
+font-size: 18px;
+font-weight: 700;
+font-style: normal;
+}
+.navbar a:hover{
+color: lightblue;
 }
 
-.navbar ul {
-  list-style: none;
-  display: flex;
-  align-items: center;
+.heading{
+color: #fff;
+background-color:#0151cc;
+min-height: 400px;
 }
 
-.navbar li {
-  margin-left: 30px;
-}
+.heading h1{
+font-size: 2rem;
+font-weight: 700;
+font-style: normal;
 
-.navbar a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 700;
 }
-
-.navbar a:hover {
-  color: lightblue;
+.heading .image{
+max-width: 100%;
 }
-
-/* HERO / HEADING SECTION */
-.heading {
-  background-color: #0151cc;
-  color: #fff;
-  padding: 50px 0;
+.heading .container{
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
+.boxes .container{
+display: flex;
+justify-content: space-between;
 
-.heading .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 40px;
 }
-
-.heading h1 {
-  font-size: 2rem;
-  font-weight: 700;
+.boxes .box{
+flex: 1;
+background-color: #0151cc;
+color: #fff;
+padding: 15px 20px;
+border-radius: 20px;
+margin: 20px 10px;
+box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
 }
-
-.heading .image {
-  width: 100%;
-  max-width: 400px;
+.boxes .box i{
+/* font-size: 50px; */
+margin-right: 10px;
 }
-
-.image {
-  width: 100%;
-  max-width: 100%;
+@media screen and (max-width:768px) {
+.heading .container{
+flex-direction: column;
+align-items: center;
+padding-top: 20px;
+justify-content: center;
 }
-
-/* BOXES SECTION */
+body {
+Overlay :hidden ;
+} 
+.navbar .container{
+padding: 10px;}
+.heading .container div{
+text-align: center;
+}
+.heading .container{
+display: block;
+}
 .boxes .container {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
+flex-direction: column;
+align-items: center;
 }
 
 .boxes .box {
-  flex: 1;
-  background-color: #0151cc;
-  color: #fff;
-  padding: 15px 20px;
-  border-radius: 20px;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+width: 100%;
+margin: 10px 0;
+}
+.image{
+max-width: 50%;
 }
 
-.boxes .box i {
-  margin-right: 10px;
+
 }
 
-/* HEADINGS */
 h1,
-h2 {
-  margin-bottom: 15px;
+h2{
+margin-bottom: 15px;
 }
 
-/* MOBILE RESPONSIVENESS */
-@media screen and (max-width: 768px) {
-
-  /* NAVBAR */
-  .navbar .container {
-    padding: 10px;
-  }
-
-  /* HEADING SECTION */
-  .heading .container {
-    flex-direction: column;
-    text-align: center;
-    gap: 20px;
-  }
-
-  /* BOXES STACK */
-  .boxes .container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .boxes .box {
-    width: 100%;
-    margin: 10px 0;
-  }
+.container{
+max-width: 1100px;
+margin: 0 auto;
+padding: 0 30px;
 }
