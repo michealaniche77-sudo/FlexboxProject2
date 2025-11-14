@@ -100,10 +100,9 @@ flex-direction: column;
 align-items: center;
 padding-top: 20px;
 justify-content: center;
-}
-body {
 Overlay :hidden ;
-} 
+}
+
 .navbar .container{
 padding: 10px;}
 .heading .container div{
