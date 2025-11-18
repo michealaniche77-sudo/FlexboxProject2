@@ -29,4 +29,4 @@
          .boxes .container {    flex-direction: column;     align-items: center; }
          .boxes .box {    width: 100%;     margin: 10px 0;  }.Heading .image{    width: 100%; padding-bottom :0px;}
      h1,h2{    margin-bottom: 5px;}.container{    max-width: 1100px;    margin: 0 auto;    padding: 0 30px;}
-.heading{min-height: 400px;}} 
+.heading{min-height: 450px;}} 
