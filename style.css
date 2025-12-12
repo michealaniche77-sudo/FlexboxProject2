@@ -142,8 +142,10 @@ body {
         
     }
       .boxes .container {
-    flex-wrap: wrap;
-    align-items: center; 
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;   /* VERY IMPORTANT */
 }
 
 .boxes .box {
