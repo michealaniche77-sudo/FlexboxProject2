@@ -142,8 +142,7 @@ body {
         
     }
       .boxes .container {
-    
-   /* flex-wrap: wrap;*/
+    flex-wrap: wrap;
 }
 
 .boxes .box {
@@ -155,10 +154,13 @@ body {
     padding-top: 20px;
     height: 100px;
     margin-bottom: 20px;
+}
     .navbar{
         flex-shrink: 5;
     }
-}
+.boxes .container{
+    padding: 0;
+    }
 }
 @media screen and (max-width:600px) {
     .heading .container{
