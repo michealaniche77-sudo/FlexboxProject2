@@ -172,12 +172,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 0px;
+    padding: 0;
     
             }
-            .navbar{
-                flex-shrink: 5;
-            }
+            
             .navbar li{
     margin-left: 10px;
     padding-right: 10px;
@@ -207,5 +205,14 @@ body {
     padding-top: 20px;
     height: 100px;
     margin-bottom: 20px;
+}
+.boxes .container{
+    padding: 0;
+    }
+.heading .container{
+    padding: 0;
+}
+.navbar h2{
+    padding-left: 0;
 }
 }
