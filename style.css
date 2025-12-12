@@ -203,7 +203,7 @@ body {
 .boxes .box {
     width: 100%; 
 margin: 15px 0px;
-    padding: 15px auto-fit;
+    padding: 15px 10px;
   }
 .heading .img{
     max-width: 1200px;
