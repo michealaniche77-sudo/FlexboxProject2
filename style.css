@@ -143,6 +143,7 @@ body {
     }
       .boxes .container {
     flex-wrap: wrap;
+    align-items: center; 
 }
 
 .boxes .box {
@@ -155,9 +156,7 @@ body {
     height: 100px;
     margin-bottom: 20px;
 }
-    .navbar{
-        flex-shrink: 5;
-    }
+    
 .boxes .container{
     padding: 0;
     }
