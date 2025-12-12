@@ -202,8 +202,8 @@ body {
 
 .boxes .box {
     width: 100%; 
-margin: 15px 4px;
-    padding: 15px 0px;
+margin: 15px 0px;
+    padding: 15px auto-fit;
   }
 .heading .img{
     max-width: 1200px;
