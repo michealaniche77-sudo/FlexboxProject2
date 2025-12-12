@@ -199,6 +199,7 @@ body {
 
 .boxes .box {
     width: 100%; 
+margin: 15px 4px;
   }
 .heading .img{
     max-width: 1200px;
