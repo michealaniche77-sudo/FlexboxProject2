@@ -147,7 +147,7 @@ body {
 
 .boxes .box {
     width: 100%; 
-    
+    padding: auto-fit;
   }
 .heading .img{
     max-width: 1200px;
